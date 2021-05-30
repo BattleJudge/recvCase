@@ -1,0 +1,208 @@
+Invalid HTTP_HOST header: '121.4.50.215:9527'. You may need to add '121.4.50.215' to ALLOWED_HOSTS.
+Bad Request: /admin/upload
+Invalid HTTP_HOST header: '121.4.50.215:9527'. You may need to add '121.4.50.215' to ALLOWED_HOSTS.
+Bad Request: /admin/upload/
+/root/testcaseupload/testcaseupload/settings.py changed, reloading.
+/root/testcaseupload/testcaseupload/settings.py changed, reloading.
+Internal Server Error: /admin/upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/testcaseupload/recvCases/views.py", line 28, in post
+    if not req_serializer.is_valid():
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/serializers.py", line 214, in is_valid
+    'Cannot call `.is_valid()` as no `data=` keyword argument was '
+AssertionError: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.
+/root/testcaseupload/recvCases/views.py changed, reloading.
+/root/testcaseupload/recvCases/views.py changed, reloading.
+/root/testcaseupload/recvCases/utils.py changed, reloading.
+/root/testcaseupload/recvCases/views.py changed, reloading.
+/root/testcaseupload/recvCases/views.py changed, reloading.
+/root/testcaseupload/recvCases/views.py changed, reloading.
+/root/testcaseupload/recvCases/views.py changed, reloading.
+Internal Server Error: /admin/upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/testcaseupload/recvCases/views.py", line 37, in post
+    with open(zipfile, "wb") as f:
+TypeError: expected str, bytes or os.PathLike object, not module
+/root/testcaseupload/recvCases/views.py changed, reloading.
+/root/testcaseupload/recvCases/views.py changed, reloading.
+1: The uploaded test case zip file is empty.
+/root/testcaseupload/recvCases/views.py changed, reloading.
+1: The uploaded test case zip file is empty.
+1: Test cases upload success.
+/root/testcaseupload/testcaseupload/settings.py changed, reloading.
+Internal Server Error: /admin/upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/testcaseupload/recvCases/views.py", line 41, in post
+    info, ret_str = self.process_zip(zip_file, req_data['problem_id'])
+  File "/root/testcaseupload/recvCases/views.py", line 69, in process_zip
+    test_case_dir = os.path.join(settings.TEST_CASE_DIR, test_case_id)
+  File "/usr/local/lib/python3.6/site-packages/django/conf/__init__.py", line 83, in __getattr__
+    val = getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'TEST_CASE_DIR'
+Internal Server Error: /admin/upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/testcaseupload/recvCases/views.py", line 41, in post
+    info, ret_str = self.process_zip(zip_file, req_data['problem_id'])
+  File "/root/testcaseupload/recvCases/views.py", line 70, in process_zip
+    os.mkdir(test_case_dir)
+FileNotFoundError: [Errno 2] No such file or directory: '/root/testcaseupload/data/test_case/1'
+/root/testcaseupload/recvCases/views.py changed, reloading.
+1: Test cases upload success.
+/root/testcaseupload/testcaseupload/settings.py changed, reloading.
+1: Test cases upload success.
+/root/testcaseupload/recvCases/views.py changed, reloading.
+/root/testcaseupload/testcaseupload/settings.py changed, reloading.
+1: Test cases upload success.
+/root/testcaseupload/recvCases/views.py changed, reloading.
+Internal Server Error: /admin/upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/testcaseupload/recvCases/views.py", line 41, in post
+    info, ret_str = self.process_zip(zip_file, req_data['problem_id'])
+  File "/root/testcaseupload/recvCases/views.py", line 69, in process_zip
+    os.makedirs(test_case_dir)
+  File "/usr/lib64/python3.6/os.py", line 220, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/root/online_judge/JudgeServer/tests/test_case/1'
+2: Test cases upload success.
+Internal Server Error: /admin/upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/testcaseupload/recvCases/views.py", line 41, in post
+    info, ret_str = self.process_zip(zip_file, req_data['problem_id'])
+  File "/root/testcaseupload/recvCases/views.py", line 69, in process_zip
+    os.makedirs(test_case_dir)
+  File "/usr/lib64/python3.6/os.py", line 220, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/root/online_judge/JudgeServer/tests/test_case/2'
+3: Test cases upload success.
+4: Test cases upload success.
+1001: Test cases upload success.
+1002: Test cases upload success.
+1003: Test cases upload success.
+1004: Test cases upload success.
+1005: Test cases upload success.
+Internal Server Error: /admin/upload/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/testcaseupload/recvCases/views.py", line 41, in post
+    info, ret_str = self.process_zip(zip_file, req_data['problem_id'])
+  File "/root/testcaseupload/recvCases/views.py", line 69, in process_zip
+    os.makedirs(test_case_dir)
+  File "/usr/lib64/python3.6/os.py", line 220, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/root/online_judge/JudgeServer/tests/test_case/1'
+/root/testcaseupload/recvCases/views.py changed, reloading.
+1: Test cases upload success.
+1: Test cases upload success.
+1: Test cases upload success.
+1: Test cases upload success.
